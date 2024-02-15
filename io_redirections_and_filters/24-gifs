@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.gif" | ls -1 |sed "s#.*/##; s#[.][^.]*$##"
+find . -type f -name "*.gif" | cut -d '/' -f 1 | ls -1 
