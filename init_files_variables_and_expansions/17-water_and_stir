@@ -1,0 +1,2 @@
+#!/bin/bash
+$WATER | tr water 01234 | $STIR | tr stir. 01234 | $(((2#$WATER))+((2#$STIR)))
